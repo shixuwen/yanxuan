@@ -8,6 +8,14 @@ import {
   RECEIVE_TIME_LIMIT,
   RECEIVE_CHOICE,
   RECEIVE_SHOP_LIST,
+  RECEIVE_CLASSFIY_LIST,
+  RECEIVE_RECOMMEND_CAROUSEL,
+  RECEIVE_RECOMMEND_SCROLL,
+  RECEIVE_NUM,
+  RECEIVE_RECOMMENDTWO,
+  RECEIVE_RECOMMENDTHREE,
+  RECEIVE_RECOMMENDONE,
+
 } from "./mutation-types";
 
 export default {
@@ -35,4 +43,26 @@ export default {
   [RECEIVE_SHOP_LIST] (state,{shops}) {
     state.shops = shops
   },
+  [RECEIVE_CLASSFIY_LIST] (state,{classList}) {
+    state.classList = classList
+  },
+  [RECEIVE_RECOMMEND_CAROUSEL] (state,{recommends}) {
+    state.recommends = recommends
+  },
+  [RECEIVE_RECOMMEND_SCROLL] (state,{scrolls}) {
+    state.scrolls = scrolls
+  },
+  [RECEIVE_NUM] (state,num) {
+    state.num = num
+  },
+  [RECEIVE_RECOMMENDONE] (state,one) {
+    state.one = one
+  },
+  [RECEIVE_RECOMMENDTWO] (state,two) {
+    state.two = two
+  },
+  [RECEIVE_RECOMMENDTHREE] (state,three) {
+    state.three = three
+  },
+
 }

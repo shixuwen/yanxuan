@@ -19,3 +19,16 @@ export const reqTimeLimit = () => ajax('/timelimit')
 export const reqChoice = () => ajax('/choice')
 //商品列表
 export const reqShopList = () => ajax('/shopList')
+//分类列表
+export const reqClassifyList = () => ajax('/classifyList')
+//识物轮播
+export const reqRecommendCarousel= () => ajax('/recommendCarousel')
+//识物推荐
+export const reqRecommendScroll= () => ajax('/recommendScroll')
+//为你推荐
+export const reqRecommendOne= () => ajax('/recommendOne')
+export const reqRecommendTwo= () => ajax('/recommendTwo')
+export const reqRecommendThree= () => ajax('/recommendThree')
+
+
+
